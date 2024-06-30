@@ -1,0 +1,10 @@
+Tạo csdl theo tên trong file ENV (phương thức kết nối mysqli)
+
+--Tạo bảng bằng migrate
+php artisan migrate
+
+--fake dữ liệu cho các bảng Product tương tự tạo cho các bảng khác
+php artisan db:seed --class=ProductSeeder
+
+--chạy dự án
+php artisan serve
